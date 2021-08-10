@@ -24,10 +24,5 @@ Take a look around and feel free to reach out at any time.
 Follow this link to view [MRBlach Portfolio](https://mrblach.github.io/portfolio/)
 
 ##
-
-### Support Me With Coffee
-
-Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time to open-source projects like this.
-
 <a href="https://www.buymeacoffee.com/MRBlach" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>   or   <a href="https://www.patreon.com/MRBlach"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160"></a>
 
