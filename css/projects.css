@@ -1,0 +1,281 @@
+#projects {
+  max-width: 1200px;
+  margin-top: 120px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.img-column {
+  width: 600px;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.text-column {
+  flex: 1;
+  padding: 30px;
+  max-width: 400px;
+  line-height: 1.5;
+}
+.goingDown,
+.goingUp {
+  border-bottom: 1px solid rgba(204, 203, 203, 0.404);
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 30px 0;
+}
+.goingUp {
+  text-align: center;
+  font-size: 20px;
+  border-bottom: unset;
+}
+.goingDown:hover,
+.goingUp:hover {
+  color: #ddc47e;
+}
+.img-flex-item {
+  width: 49%;
+  max-height: 230px;
+}
+.img-flex-item {
+  height: 250px; 
+}
+.img-flex-item p {
+  color: black;
+  text-transform: uppercase;
+  background-color: #ddc47e;
+  border-radius: 50%;
+}
+
+
+/* flipbox */
+.flip-box-x,
+.flip-box-y {
+  background-color: transparent;
+  width: 290px;
+  height: 230px;
+  perspective: 1000px;
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+.flip-box-x:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+.flip-box-y:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  background-position: center;
+  border-radius: 5%;
+}.gitBtns {
+  margin-top: 185px;
+}
+.gitBtns button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 900;
+  border-radius: 15%;
+  transition:  transform .2s;
+}
+.gitBtns button:hover {
+  background-color: #ddc47e;
+  color: black;
+  box-shadow: 2px 2px 5px black;
+  transform: scale(1.5);
+}
+.box1-back,
+.box4-back,
+.box5-back {
+  transform: rotateX(180deg);
+}
+.box2-back,
+.box3-back,
+.box6-back {
+  transform: rotateY(180deg);
+}
+
+/* First Gallery */
+.gallery1 .box1-front {
+  background-image: url('https://i.ibb.co/Kw2bKkT/Untitled.png');
+  background-size: 290px 280px;
+}
+.gallery1 .box1-back {
+  background-image: url('https://i.ibb.co/94pQhnP/weather-viewport.png');  
+}
+.gallery1 .box2-front {
+  background-image: url('https://i.ibb.co/k4DqLfL/Untitled.png');
+}
+.gallery1 .box2-back {
+  background-image: url('https://i.ibb.co/yVD9Mr5/multi-calc.png');  
+}
+.gallery1 .box3-front {
+  background-image: url('https://i.ibb.co/RPtY9qG/logo.png');
+}
+.gallery1 .box3-back {
+  background-image: url('https://i.ibb.co/ctqc8T8/viewports.png');  
+}
+.gallery1 .box4-front {
+  background-image: url('https://i.ibb.co/2Ykyjzh/appIcon.png');
+}
+.gallery1 .box4-back {
+  background-image: url('https://i.ibb.co/hK4CSkh/viewports-1.png');  
+}
+.gallery1 .box5-front {
+  background-image: url('https://i.ibb.co/jRsYFDp/fetchapi.jpg');
+  background-size: 290px 230px;
+}
+.gallery1 .box5-back {
+  background-image: url('https://i.ibb.co/6FKZxQW/Untitled.png');  
+}
+.gallery1 .box6-front {
+  background-image: url('https://i.ibb.co/WW0QRmG/cat-fact-api-thumbnail.png');
+  background-size: 300px 240px;
+}
+.gallery1 .box6-back {
+  background-image: url('https://i.ibb.co/2nSCnqC/viewport.png');  
+}
+
+/* Second Gallery */
+.gallery2 .box1-front {
+  background-image: url('https://i.ibb.co/YBkNz4N/Untitled.png');
+  background-size: 290px 230px;
+}
+.gallery2 .box1-back {
+  background-image: url('https://i.ibb.co/9ZVVdwX/snake-game-viewport.png');  
+}
+.gallery2 .box2-front {
+  background-image: url('https://i.ibb.co/z48MDrZ/Untitled2.png');
+  background-size: 290px 230px;
+}
+.gallery2 .box2-back {
+  background-image: url('https://i.ibb.co/xJNY9WC/Untitled3.png');  
+}
+.gallery2 .box3-front {
+  background-image: url('https://i.ibb.co/x8XJTnz/Untitled3.png');
+  background-size: 290px 230px;
+}
+.gallery2 .box3-back {
+  background-image: url('https://i.ibb.co/t3b5DLG/Untitled.png');  
+}
+.gallery2 .box4-front {
+  background-image: url('https://i.ibb.co/d0ZkX1V/thumbnail.png');
+  background-size: 290px 230px;
+}
+.gallery2 .box4-back {
+  background-image: url('https://i.ibb.co/b2q7CNz/viewport.png');  
+}
+.gallery2 .box5-front {
+  background-image: url('https://i.ibb.co/xgP33xw/Untitled.png');
+  background-size: 290px 230px;
+}
+.gallery2 .box5-back {
+  background-image: url('https://i.ibb.co/njxLSks/Untitled.png');  
+}
+.gallery2 .box6-front {
+  background-image: url('https://i.ibb.co/bP5F6hT/Untitled.png');
+  background-size: 290px 230px;
+}
+.gallery2 .box6-back {
+  background-image: url('https://i.ibb.co/mzHkHgF/Untitled.png');  
+}
+
+/*  Third Gallery */
+.gallery3 .box1-front {
+  background-image: url('https://i.ibb.co/t3RbZD7/Untitled.png');
+  background-color: #121416;
+}
+.gallery3 .box1-back {
+  background-image: url('https://i.ibb.co/X5xzq0z/Untitled.png');  
+}
+.gallery3 .box2-front {
+  background-image: url('https://i.ibb.co/6gF0wt1/thumbnail.png');
+  background-size: 290px 230px;
+}
+.gallery3 .box2-back {
+  background-image: url('https://i.ibb.co/LtTGVBv/viewport.png');  
+}
+.gallery3 .box3-front {
+  background-image: url('https://i.ibb.co/XSKGGY2/thumbnail.png');
+  background-size: 290px 230px;
+}
+.gallery3 .box3-back {
+  background-image: url('https://i.ibb.co/kKjYp17/viewport.png');  
+}
+.gallery3 .box4-front {
+  background-image: url('https://i.ibb.co/LN1C19D/thumbnail.png');
+  background-size: 290px 230px;
+}
+.gallery3 .box4-back {
+  background-image: url('https://i.ibb.co/VYfh0wY/viewport.png');  
+}
+.gallery3 .box5-front {
+  background-image: url('https://i.ibb.co/HY6qdKV/thumbnail.png');
+  background-size: 290px 230px;
+}
+.gallery3 .box5-back {
+  background-image: url('https://i.ibb.co/9qbPgKP/viewports.png');  
+}
+.gallery3 .box6-front {
+  background-image: url('https://i.ibb.co/FnG6Kmr/thumbnail.png');
+}
+.gallery3 .box6-back {
+  background-image: url('https://i.ibb.co/9WQ4HSz/viewports.png');  
+}
+/* Fourth Gallery */
+.gallery4 .box1-front {
+  background-image: url('/img/successThumbnail.png');
+}
+.gallery4 .box1-back {
+  background-image: url('https://i.ibb.co/yVQPNr5/success-Viewport.png');  
+}
+.gallery4 .box2-front {
+  background-image: url('/img/fuzzyLogo.png');
+}
+.gallery4 .box2-back {
+  background-image: url('https://i.ibb.co/mhJ106M/viewport.png');  
+}
+.gallery4 .box3-front {
+  background-image: url('/img/taqueria.png');
+}
+.gallery4 .box3-back {
+  background-image: url('https://i.ibb.co/D7wpGQk/viewport.png');  
+}
+.gallery4 .box4-front {
+  background-image: url('/img/cautionThumbnail.png');
+}
+.gallery4 .box4-back {
+  background-image: url('https://i.ibb.co/KF1t6g4/caution-Viewport.png');  
+}
+.gallery4 .box5-front {
+  background-image: url('/img/dangerThumbnail.png');
+}
+.gallery4 .box5-back {
+  background-image: url('https://i.ibb.co/QXpTrsP/danger-Viewport.png');  
+}
+.gallery4 .box6-front {
+  background-image: url('/img/company-newsletter.png');
+}
+.gallery4 .box6-back {
+  background-image: url('https://i.ibb.co/0qQPc17/template1-viewport.png');  
+}

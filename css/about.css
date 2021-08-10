@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+.column {
+  max-width: 1200px;
+  margin-top: 130px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.last-row {
+  margin: 40px 0;
+}
+#map {
+  position: relative;
+}
+.pin {
+position: absolute;
+bottom: 50%;
+right: 50%;
+font-size: 40px;
+text-shadow: 5px 2px 5px black;
+} 

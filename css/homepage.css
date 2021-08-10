@@ -1,0 +1,163 @@
+#navigation {
+  width: 100%;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  max-width: 1200px;
+  padding: 10px;
+  z-index: 1;
+}
+#navbar {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  animation: navbar-dropin 500ms forwards;
+}
+@keyframes navbar-dropin {
+  from {
+    top: -6%;
+  }
+  to {
+    top: 0;
+  }
+}
+.brand-name {
+  padding-right: 150px;
+  z-index: 1;
+}
+.dropdown {
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown button {
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: white;
+  min-width: 160px;
+  margin-top: 20px;
+}
+
+.dropdown-content a {
+  color: white;
+  border-radius: 25%;
+  text-shadow: 1px 1px 5px black;
+  padding: 0 10px;
+  font-size: 35px;
+  text-decoration: none;
+}
+.dropdown-content i {
+  transition:  transform .2s;
+}
+.dropdown-content i:hover {
+  color: #ddc47e;
+  text-shadow: 1px 1px 5px black;
+  transform: scale(1.5);
+                           }
+                           
+.dropdown:hover .dropdown-content {
+  display: block;
+  animation: drop-in .5s forwards;
+}
+@keyframes drop-in {
+  from {top: 40%}
+  to {top:100%}
+}
+.dropdown button:hover {
+  color: #ddc47e
+}
+.underline {
+  color: black;
+}
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  margin-right: 100px;
+}
+.navbar a {
+  width: 86px;
+  font-size: 14px;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;  
+  text-align: center;
+  padding-left: 30px;
+  text-decoration: none;
+  letter-spacing: .2em;
+}
+.navbar a:hover {
+  color: #ddc47e;
+} 
+a:hover .underline {
+  animation: underline 500ms ;
+  color: #ddc47e;
+}
+.navbar .active {
+  color: #ddc47e;
+}
+@keyframes underline {
+  from {
+    left: -50%;
+    width: 0%;
+  }
+  to {
+    left: 5%;
+    width: 100%;
+  } 
+}
+#banner {
+  margin: auto;
+  margin-top: 70px;
+  background-image: url("/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  animation: banner-fade-in 1s forwards;
+}
+@keyframes banner-fade-in {
+  0% {
+    filter: blur(0) opacity(0);
+  }
+  25% {
+    filter: blur(0) opacity(0.2);
+  }
+  50% {
+    filter: blur(0) opacity(0.5);
+  }
+  75% {
+    filter: blur(0) opacity(0.8);
+  }
+  100% {
+    filter: blur(0) opacity(1);
+  }
+}
+#banner h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 5px black;
+  position: relative;
+  padding: 60% 0 0 52%;
+  margin: 0;
+}

@@ -1,0 +1,218 @@
+body {
+  background-color: black;
+  font-family: 'Lora', serif;
+  margin: 0 auto;
+  /* border: 2px solid yellow; */
+}
+.main-wrapper {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+}
+header {
+  background-color: black;
+  position: absolute;
+  top: 40%;
+}
+.name {
+  color: #efefef;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/* 
+section {
+  border: 2px solid green;
+}
+section div {
+  border: 2px solid red; 
+}
+span {
+  border: 2px dotted blue;
+}
+hr {
+  border: 2px dashed rgb(248, 54, 206);
+} */
+
+ /* vertical hr */
+ .hide-line {
+  width: 1px; 
+  height: 150px;
+ }
+ .line {
+  border: 2px solid #ddc47e; 
+  background-color: #ddc47e;
+  position: relative;
+ }
+ /* grow & fade vertical hr */
+ .grow-line {
+  animation: grow-line 500ms linear forwards,
+             fade-line 3s linear forwards; 
+            
+}
+@keyframes grow-line {
+  from {
+    top: 50%;
+    height: 0%;
+  }
+  to {
+    top: -5%;
+    height: 100%;
+  }
+}
+@keyframes fade-line {
+  0% {
+    filter: blur(0) opacity(0%);
+  }
+  30% {
+    filter: blur(0) opacity(1);
+  }
+  70% {
+    filter: blur(0) opacity(1);
+  }
+  100% {
+    filter: blur(12px) opacity(0%);
+  }
+} 
+/* full name slide ins */
+#name-slides {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.hide-slider {
+  position: relative;
+  overflow: hidden;
+}
+/* first name slides left */
+.m {
+  font-size: 60px;
+  position: relative;
+  left: 110%;
+  animation:  slide-m-left 1s forwards,
+              slide-m-right 1s forwards,
+              m-font-size forwards;
+  animation-delay: 500ms, 2.2s, 8s;
+}
+@keyframes slide-m-left {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+@keyframes slide-m-right {
+  
+  to {
+    left: 72%;
+  }
+}
+.elodia {
+  font-size: 60px;
+  position: relative;
+  left: 118%;
+  animation:  slide-elodia-left 1s forwards,
+              fade-elodia 3s forwards,
+              elodia-font-size forwards;
+              animation-delay: 500ms, 0s, 8s;
+}
+@keyframes slide-elodia-left {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -2%;
+  }
+}
+@keyframes fade-elodia {
+ 
+  70% {
+    filter: blur(0) opacity(1);
+  }
+  100% {
+    filter: blur(12px) opacity(0%);
+  }
+}
+.r {
+  font-size: 60px;
+  position: relative;
+  left: 110%;
+  animation: slide-r-left 1s forwards,
+             slide-r-right 1s forwards,
+             r-font-size  forwards;
+  animation-delay: 500ms, 2.2s, 8s;
+}
+@keyframes slide-r-left {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -1%;
+  }
+}
+@keyframes slide-r-right {
+  
+  to {
+    left: .1%;
+  }
+}
+/* last name slides right */
+.slide-right {
+  animation: slide-right 1s forwards,
+             slide-blach-left 1s forwards;
+  animation-delay: 1s, 2.2s;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
+
+@keyframes slide-blach-left {
+  to {
+    transform:translateX(-1%);
+  }
+}
+/* color last name only */
+.slide-right .name {
+  color: #ddc47e;
+}
+.blach {
+  color: #ddc47e;
+  font-size: 60px;
+  animation: color-change 1s forwards,
+             blach-font-size forwards;
+  animation-delay: 2.3s, 8s;
+}
+@keyframes color-change {
+  from {color: #ddc47e}
+  to {color: #efefef}
+}
+.owicz {
+  font-size: 60px;
+  animation: fade-owicz 3s forwards,
+             owicz-font-size forwards;
+             
+  animation-delay: 0s, 8s;
+}
+@keyframes fade-owicz {
+ 
+  70% {
+    filter: blur(0) opacity(1);
+  }
+  100% {
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+
+
+
+
