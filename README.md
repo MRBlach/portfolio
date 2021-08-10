@@ -16,7 +16,8 @@ MRBlach Portfolio
 
 ### Welcome
 
-You've reach the portfolio of Melodia R Blachowicz, ***Junior Front End Developer.*** Take a look around and feel free to reach out at any time.
+You've reach the portfolio of **Melodia R Blachowicz**, ***Junior Front End Developer.*** <br>
+Take a look around and feel free to reach out at any time.
 
 ##
 
