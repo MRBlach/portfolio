@@ -128,11 +128,7 @@ a:hover .underline {
 #banner {
   margin: auto;
   margin-top: 70px;
-<<<<<<< HEAD
-  background-image: url("/img/banner.png");
-=======
   background-image: url("img/banner.png");
->>>>>>> fa9f5894d2c090d898ed7e04e38711a1ced401b3
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
