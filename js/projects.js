@@ -4,9 +4,10 @@ document.getElementById('my-projects').innerHTML = `
 
   <div class="row">
     <div class="text-column">
-      <h1>Apps & APIs</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <h1>API Projects</h1>
+        <p>Working with APIs can be both fun and interesting. The amount of data at one's finger tips is staggering. Here are a few examples of the implementation of said data from various open APIs.
         </p>
+        <p>Some projects will need CORS AUTHENTICATION, depending on the API. I used a CORS enabling extention for Google. You Can find the extention just by searching CORS Enabler in your web browser.</p>
     </div>
 
     <div class="img-column gallery1">
@@ -17,10 +18,10 @@ document.getElementById('my-projects').innerHTML = `
               </div>
               <div class="flip box1-back">
                 <div class="gitBtns">
-                <a href="https://mrblach.github.io/weather-api/" target="_blank">
+                <a href="https://mrblach.github.io/covid-19/" target="_blank">
                   <button>Demo</button>
                 </a>
-                <a href="https://github.com/MRBlach/weather-api#readme" target="_blank">
+                <a href="https://github.com/MRBlach/covid19#readme" target="_blank">
                   <button>READ.ME</button>
                 </a>
                 </div>
@@ -35,10 +36,10 @@ document.getElementById('my-projects').innerHTML = `
             </div>
             <div class="flip box2-back">
               <div class="gitBtns">
-                <a href="https://mrblach.github.io/multi-calc/" target="_blank">
+                <a href="https://github.com/MRBlach/dog-api" target="_blank">
                   <button>Demo</button>
                 </a>
-                <a href="https://github.com/MRBlach/multi-calc#readme" target="_blank">
+                <a href="https://github.com/MRBlach/dog-api#readme" target="_blank">
                   <button>READ.ME</button>
                 </a>
               </div>
@@ -53,10 +54,10 @@ document.getElementById('my-projects').innerHTML = `
               </div>
               <div class="flip box3-back">
                 <div class="gitBtns">
-                  <a href="https://mrblach.github.io/covid-19/" target="_blank">
+                  <a href="https://mrblach.github.io/weather-api/" target="_blank">
                     <button>Demo</button>
                   </a>
-                  <a href="https://github.com/MRBlach/covid-19#readme" target="_blank">
+                  <a href="https://github.com/MRBlach/weather-api#readme" target="_blank">
                     <button>READ.ME</button>
                   </a>
                 </div>
@@ -249,9 +250,9 @@ document.getElementById('my-projects').innerHTML = `
       <h1>JavaScript Games</h1>
       <p>The games you see here were made possible by following coding tutorials from various sources. Each is credited in the README.md file under "acknowledgements." Following tutorials helped me to understand the code line by line. Previous course study knowledge allowed me to tailor the code to achieve the desired outcome. For example:
       <ul>
-        <li>Adding detailed comments</li>
         <li>Eliminating redundancies using the DRY approach</li>
         <li>Applying detailed styling for a better UI experience</li>
+        <li>Adding detailed comments to improve readability</li>
       </ul>
       </p>
     </div>
@@ -368,10 +369,10 @@ document.getElementById('my-projects').innerHTML = `
             </div>
             <div class="flip box6-back">
               <div class="gitBtns">
-                <a href="https://mrblach.github.io/task-list/" target="_blank">
+                <a href="https://mrblach.github.io/multi-calc/" target="_blank">
                   <button>Demo</button>
                 </a>
-                <a href="https://github.com/MRBlach/task-list/#readme" target="_blank">
+                <a href="https://github.com/MRBlach/multi-calc#readme" target="_blank">
                   <button>READ.ME</button>
                 </a>
               </div>
@@ -383,8 +384,9 @@ document.getElementById('my-projects').innerHTML = `
 
     <div class="text-column">
       <h1>Practice Projects</h1>
-      <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae at architecto ab nihil voluptatem voluptate aspernatur deleniti aliquam neque eaque quas magnam eum ex, doloremque rerum ipsam distinctio iste perspiciatis unde dolorem! Ratione eum, vitae necessitatibus quibusdam exercitationem repellat assumenda vero adipisci expedita distinctio excepturi reprehenderit totam sed, dignissimos corporis inventore! Quam suscipit vitae veritatis! Autem natus quidem tempore, necessitatibus nesciunt dolore fugit illo magni labore tempora totam, ratione consequatur non odit amet impedit libero, maiores nisi culpa expedita maxime quod reprehenderit voluptatum? Ab earum iure est? Qui minus vero, amet eaque iusto enim architecto?</p>
+      <p>The following projects are an expression of my own creativity. Applying what I've learned thus far from tutorials, online courses, and source documentation, I've created these fun practice projects.
+      </p>
+      <p>The first one is my favorite. That's a fine slice of pie. Have at it, gain some insight into my brain and maybe let me know which plate you choose.
       </p>
     </div>
   </div>
@@ -515,7 +517,9 @@ document.getElementById('my-projects').innerHTML = `
 
     <div class="text-column">
       <h1>HTML Email Templates</h1>
-      <p>Perspiciatis unde dolorem! Ratione eum, vitae necessitatibus quibusdam exercitationem repellat assumenda vero adipisci expedita distinctio excepturi reprehenderit totam sed, dignissimos corporis inventore! Quam suscipit vitae veritatis! Autem natus quidem tempore, necessitatibus nesciunt dolore fugit illo.
+      <p>Lastly, here are a few examples of HTML email templates. From simple status notification emails to more eye catching e-commerse templates, all are an exercise in table nesting. 
+      </p>
+      <p>Each template has been tested using a Responsive Email CSS Inliner, as well as Litmus Email Tester.
       </p>
     </div>
   </div>

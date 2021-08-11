@@ -117,23 +117,24 @@
 
 /* First Gallery */
 .gallery1 .box1-front {
+  background-image: url('https://i.ibb.co/RPtY9qG/logo.png');
+}
+.gallery1 .box1-back {
+  background-image: url('https://i.ibb.co/ctqc8T8/viewports.png');  
+}
+.gallery1 .box2-front {
+  background-image: url('https://i.ibb.co/6PgVLd8/thumbnail.png');
+  background-size: 290px 230px;
+}
+.gallery1 .box2-back {
+  background-image: url('https://i.ibb.co/qMY3gx0/viewports.png');  
+}
+.gallery1 .box3-front {
   background-image: url('https://i.ibb.co/Kw2bKkT/Untitled.png');
   background-size: 290px 280px;
 }
-.gallery1 .box1-back {
-  background-image: url('https://i.ibb.co/94pQhnP/weather-viewport.png');  
-}
-.gallery1 .box2-front {
-  background-image: url('https://i.ibb.co/k4DqLfL/Untitled.png');
-}
-.gallery1 .box2-back {
-  background-image: url('https://i.ibb.co/yVD9Mr5/multi-calc.png');  
-}
-.gallery1 .box3-front {
-  background-image: url('https://i.ibb.co/RPtY9qG/logo.png');
-}
 .gallery1 .box3-back {
-  background-image: url('https://i.ibb.co/ctqc8T8/viewports.png');  
+  background-image: url('https://i.ibb.co/94pQhnP/weather-viewport.png');  
 }
 .gallery1 .box4-front {
   background-image: url('https://i.ibb.co/2Ykyjzh/appIcon.png');
@@ -237,10 +238,10 @@
   background-image: url('https://i.ibb.co/9qbPgKP/viewports.png');  
 }
 .gallery3 .box6-front {
-  background-image: url('https://i.ibb.co/FnG6Kmr/thumbnail.png');
+  background-image: url('https://i.ibb.co/k4DqLfL/Untitled.png');
 }
 .gallery3 .box6-back {
-  background-image: url('https://i.ibb.co/9WQ4HSz/viewports.png');  
+  background-image: url('https://i.ibb.co/yVD9Mr5/multi-calc.png');  
 }
 /* Fourth Gallery */
 .gallery4 .box1-front {

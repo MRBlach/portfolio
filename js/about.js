@@ -9,8 +9,14 @@ document.getElementById('about-me').innerHTML = `
     
     <div class="text-column">
       <h1>Hey it's me <small>(and Murphy)</small></h1>
-      <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae at architecto ab nihil voluptatem voluptate aspernatur deleniti aliquam neque eaque quas magnam eum ex, doloremque rerum ipsam distinctio iste perspiciatis unde dolorem! Ratione eum, vitae necessitatibus quibusdam exercitationem repellat assumenda vero adipisci expedita distinctio excepturi reprehenderit totam sed, dignissimos corporis inventore! Quam suscipit vitae veritatis! Autem natus quidem tempore, necessitatibus nesciunt dolore fugit illo magni labore tempora totam, ratione consequatur non odit amet impedit libero, maiores nisi culpa expedita maxime quod reprehenderit voluptatum? Ab earum iure est? Qui minus vero, amet eaque iusto enim architecto?</p>
+      <p>Melody (she/ her)
+      <br>
+      <p>I grew up in Orlando, FL and spent the majority of my adult life in Portland, OR. My wife and I moved to Phoenix, AZ at the beginning of 2020 to be closer to family.
+      </p>
+      <p>Formerly, I was a physics and mathematics major with a strong interest in both computer science and astronomy. Now, I'm applying my creativity and problem-solving skills to front-end web development. I'm excited to learn back-end and build my skills up to a full-stack level. I desire to optimize web functionalities to improve UI experience and workflow efficiencies.
+      </p>
+      <p>I will chase a bug to the gates of hell.
+      </p>
     </div>
   </div>
  
@@ -29,7 +35,13 @@ document.getElementById('about-me').innerHTML = `
   <div class="row last-row">
     <div class="text-column">
       <h1>We live in Phoenix, AZ</h1>
-      <p>Perspiciatis unde dolorem! Ratione eum, vitae necessitatibus quibusdam exercitationem repellat assumenda vero adipisci expedita distinctio excepturi reprehenderit totam sed, dignissimos corporis inventore! Quam suscipit vitae veritatis! Autem natus quidem tempore, necessitatibus nesciunt dolore fugit illo.</p>
+      <p>Murph and I are living our biggest dreams in a tiny house on a beautiful cactus nursery. I'm currently available for in-office work within the Phoenix metro area. I'm also open to remote work within the USA.
+      </p>
+      <p>I’m very motivated to begin my professional career in Web Development, as I’m completing
+      coding courses and strengthening my skills daily. Though I’m an entry-level applicant, I’m
+      passionate about doing a good job and broadening my web dev scope. I believe I’ll make an
+      excellent Frontend Web Developer thanks to that passion.
+      </p>
     </div>
     <div class="img-column" id="map">
       <img src="img/phoenix-night-map.png" width="434px"><i class="fas fa-map-marker-alt pin"></i>
