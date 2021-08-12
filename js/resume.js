@@ -7,7 +7,7 @@ document.getElementById('my-resume').innerHTML = `
 <div id="resume">
  <div class="left-column">
   <div id="profile-pic">
-    <img src="img/camera.png" height="175px">
+    <img src="https://i.ibb.co/XtBkJjv/camera.png" height="175px">
   </div>
   
   <div id="personal-info">

@@ -4,7 +4,7 @@ document.getElementById('about-me').innerHTML = `
 
   <div class="row">
     <div class="img-column">
-      <img src="img/meza.png" height="700px">
+      <img src="https://i.ibb.co/BVVR2Zt/meza.png" height="700px">
     </div>
     
     <div class="text-column">
@@ -44,7 +44,7 @@ document.getElementById('about-me').innerHTML = `
       </p>
     </div>
     <div class="img-column" id="map">
-      <img src="img/phoenix-night-map.png" width="434px"><i class="fas fa-map-marker-alt pin"></i>
+      <img src="https://i.ibb.co/QCS1b8L/phoenix-night-map.png" width="434px"><i class="fas fa-map-marker-alt pin"></i>
     </div>
   </div>
 </div>

@@ -243,39 +243,40 @@
 .gallery3 .box6-back {
   background-image: url('https://i.ibb.co/yVD9Mr5/multi-calc.png');  
 }
+
 /* Fourth Gallery */
 .gallery4 .box1-front {
-  background-image: url('/img/successThumbnail.png');
+  background-image: url('https://i.ibb.co/MGVppqD/success-Thumbnail.png');
 }
 .gallery4 .box1-back {
   background-image: url('https://i.ibb.co/yVQPNr5/success-Viewport.png');  
 }
 .gallery4 .box2-front {
-  background-image: url('/img/fuzzyLogo.png');
+  background-image: url('https://i.ibb.co/r51vzf0/fuzzy-Logo.png');
 }
 .gallery4 .box2-back {
   background-image: url('https://i.ibb.co/mhJ106M/viewport.png');  
 }
 .gallery4 .box3-front {
-  background-image: url('/img/taqueria.png');
+  background-image: url('https://i.ibb.co/PcMDC4G/taqueria.png');
 }
 .gallery4 .box3-back {
   background-image: url('https://i.ibb.co/D7wpGQk/viewport.png');  
 }
 .gallery4 .box4-front {
-  background-image: url('/img/cautionThumbnail.png');
+  background-image: url('https://i.ibb.co/KGRkLWN/caution-Thumbnail.png');
 }
 .gallery4 .box4-back {
   background-image: url('https://i.ibb.co/KF1t6g4/caution-Viewport.png');  
 }
 .gallery4 .box5-front {
-  background-image: url('/img/dangerThumbnail.png');
+  background-image: url('https://i.ibb.co/1qKynMK/danger-Thumbnail.png');
 }
 .gallery4 .box5-back {
   background-image: url('https://i.ibb.co/QXpTrsP/danger-Viewport.png');  
 }
 .gallery4 .box6-front {
-  background-image: url('/img/company-newsletter.png');
+  background-image: url('https://i.ibb.co/hWp274j/company-newsletter.png');
 }
 .gallery4 .box6-back {
   background-image: url('https://i.ibb.co/0qQPc17/template1-viewport.png');  
