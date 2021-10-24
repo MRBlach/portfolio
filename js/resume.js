@@ -7,25 +7,25 @@ document.getElementById('my-resume').innerHTML = `
 <div id="resume">
  <div class="left-column">
   <div id="profile-pic">
-    <img src="https://i.ibb.co/XtBkJjv/camera.png" height="175px">
+    <img src="https://i.ibb.co/HGzxz20/camera-min.png" alt="Image of a young thirties, androgynous, caucasian woman wearing a beanie, and a button up plaid shirt. She is in a forest, looking through the lense of a small digital camera, while smiling and giving a thumbs up. The image is in black and white with a slight yellow hue.">
   </div>
   
   <div id="personal-info">
-    <a href="mailto:melodyblachowicz@gmail.com">
+    <a href="mailto:contact@mrblach.com">
     <i class="fas fa-envelope"></i>
-    <p>melodyblachowicz@gmail.com</p></a>
-    <a href="https://www.google.com/maps/place/Phoenix,+AZ/@33.6050991,-112.4052392,10z/data=!3m1!4b1!4m5!3m4!1s0x872b12ed50a179cb:0x8c69c7f8354a1bac!8m2!3d33.4483771!4d-112.0740373" target="_blank"><i class="fas fa-map-marker-alt"></i>
+    <p>contact@MRBlach.com</p></a>
+    <a href="https://www.google.com/maps/place/Phoenix,+AZ/@33.6050991,-112.4052392,10z/data=!3m1!4b1!4m5!3m4!1s0x872b12ed50a179cb:0x8c69c7f8354a1bac!8m2!3d33.4483771!4d-112.0740373" rel="noopener" target="_blank"><i class="fas fa-map-marker-alt"></i>
     <p>Phoenix, AZ</p></a>
-    <a href="tel:5033148300"><i class="fas fa-mobile-alt"></i>
-    <p>(503) 314-8300</p></a>
-    <a href="https://www.github.com/mrblach"><i class="fab fa-github-square"></i>
+    <a href="https://www.github.com/mrblach" rel="noopener" target="_blank"><i class="fab fa-github-square"></i>
     <p>github.com/mrblach</p></a>
-    <a href="https://www.linkedin.com/in/mrblach"><i class="fab fa-linkedin"></i>
+    <a href="https://www.linkedin.com/in/mrblach" rel="noopener" target="_blank"><i class="fab fa-linkedin"></i>
     <p>linkedin.com/in/mrblach</p></a>
-    <a href="https://www.instagram.com/mrblach_"><i class="fab fa-instagram-square"></i>
-    <p>instagram.com/mrblach_</p></a>
-    <a href="https://www.mrblach.github.io/portfolio"><i class="fas fa-folder"></i>
-    <p>mrblach.github.io/portfolio</p></a>
+    <a href="https://www.mrblach.com" rel="noopener" target="_blank"><i class="fas fa-globe"> <small>portfolio</small></i>
+    <p>MRBlach.com</p></a>
+    <a href="https://www.media-revive.tech" rel="noopener" target="_blank"><i class="fas fa-globe"> <small>freelance</small></i>
+    <p>media-revive.tech</p></a>
+    <a href="https://www.blog.media-revive.tech rel="noopener" target="_blank""><i class="fas fa-globe"> <small>blog</small></i>
+    <p>blog.media-revive.tech</p></a>
   </div>
   
   <div id="progress">
@@ -46,6 +46,12 @@ document.getElementById('my-resume').innerHTML = `
     <p>Visual Studio Code</p><br>
     <progress class="progressBar" value="100" max="100"></progress><br><br>
     <p>GIT</p><br>
+    <progress class="progressBar" value="100" max="100"></progress><br><br>
+    <p>GitHub</p><br>
+    <progress class="progressBar" value="100" max="100"></progress><br><br>
+    <p>Slack</p><br>
+    <progress class="progressBar" value="100" max="100"></progress><br><br>
+    <p>Google Workspace</p><br>
     <progress class="progressBar" value="100" max="100"></progress><br>
   </div>
 
@@ -123,14 +129,18 @@ document.getElementById('my-resume').innerHTML = `
   <hr>
   <span class="job present">
     <span class="group1">
-      <p class="left">Junior Front End Developer, Freelance</p>
+      <p class="left">Front End Developer, media revive</p>
       <p class="middle">Phoenix, AZ</p>
       <p class="right">03/2020 - present</p>
     </span>
     <span class="group2">
       <i class="far fa-star"></i>
-      <p class="pros">Learned html, css, and javascript</p>
+      <p class="pros">Created website for my freelance work (www.media-revive.tech) using only html, css, javascript</p>
     </span>
+    <span class="group2">
+    <i class="far fa-star"></i>
+    <p class="pros">Created website for my tech blog (www.blog.media-revive.tech) using only html, css, javascript</p>
+  </span>
   </span>
   <span class="job">
     <span class="group1">
@@ -140,7 +150,7 @@ document.getElementById('my-resume').innerHTML = `
     </span>
     <span class="group2">
       <i class="far fa-star small text-primary"></i>
-      <p class="pros">Modified kitchen layout, optimizied workflow efficiency, decreased customer wait time</p>
+      <p class="pros">Modified kitchen layout, optimized workflow efficiency, decreased customer wait time</p>
     </span>
     <span class="group2">
       <i class="far fa-star small text-primary"></i>
@@ -159,7 +169,7 @@ document.getElementById('my-resume').innerHTML = `
     <span class="group1">
     <p class="left">Station Chef, New Seasons Market</p>
     <p class="middle">Portland, OR</p>
-    <p class="right">04/2014 - 012/2018</p>
+    <p class="right">04/2014 - 12/2018</p>
     </span>
     <span class="group2">
       <i class="far fa-star small text-primary"></i>
@@ -168,10 +178,6 @@ document.getElementById('my-resume').innerHTML = `
     <span class="group2">
       <i class="far fa-star small text-primary"></i>
       <p class="pros">Translated recipes into Spanish, increased accessibility, decreased prep-time and errors</p>
-    </span>
-    <span class="group2">
-      <i class="far fa-star small text-primary"></i>
-      <p class="pros">Advanced from Clerk to Station Chef</p>
     </span>
     <span class="group2">
       <i class="far fa-star small text-primary"></i>
@@ -243,8 +249,6 @@ function loadResume(e) {
   // Display resume page
   let resumePage = document.getElementById('my-resume');
   resumePage.style.display = 'block';
-  // Allow scroll
-  document.body.style.overflow = 'scroll';
 }
 
 

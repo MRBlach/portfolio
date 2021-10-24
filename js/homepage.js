@@ -6,10 +6,10 @@ document.getElementById('navigation').innerHTML = `
     <div class="dropdown">
       <button href="#" class="dropBtn btn" id="brand-name">MRBLACH</button> 
       <div class="dropdown-content">
-        <a href="https://www.facebook.com/melody.blachowicz" target="_blank"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://www.linkedin.com/in/mrblach" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.github.com/mrblach" target="_blank"><i class="fab fa-github-square"></i></a>
-        <a href="https://www.instagram.com/mrblach_" target="_blank"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://www.facebook.com/melody.blachowicz" rel="noopener" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.linkedin.com/in/mrblach" rel="noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.github.com/mrblach" rel="noopener" target="_blank"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.instagram.com/mrblach_" rel="noopener" target="_blank"><i class="fab fa-instagram-square"></i></a>
       </div>
     </div>
   </div>
@@ -21,9 +21,10 @@ document.getElementById('navigation').innerHTML = `
     <a href="#" class="btn" id="contactBtn">CONTACT<hr class="underline"></a>
   </div>
 </section>
-<div id="banner">
-  <h1>Front End Developer</h1>
-</div>
+  <div id="banner">
+    <img id="banner-image" src="https://i.ibb.co/rtJyhKx/banner-min.png" width="1200px" height="803px" alt="Image of a young thirties, androgynous, caucasian woman wearing sun glasses, a beanie, and a button up plaid shirt. She is leaning against a car on a neighborhood street. The image is in black and white with a slight yellow hue."/>
+    <h1 id="fed">Front End Developer</h1>
+  </div>
 `;
 
 // Remove intro name sequence
@@ -62,7 +63,7 @@ let btnContainer = document.querySelector('#navbar');
 let btns = btnContainer.getElementsByClassName("btn");
 
 // Loop through the buttons and add the active class to the current/clicked button
-for (let i = 0; i < btns.length; i++) {
+for (let i = 0; i < btns.length; i++) { 
   btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
 

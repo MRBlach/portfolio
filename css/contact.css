@@ -1,17 +1,15 @@
 #contact {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  flex-wrap: nowrap; */
-  border: 5px solid red;
-  margin-top: 200px;
+  margin-top: 150px;
   width: 900px;
-}
-.contact-title {
-  border: 2px solid blue;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
   color: white;
-}
-.contact-form {
-  border: 2px solid yellow;
+  background-image: url('https://i.ibb.co/cgZ4Rkm/Untitled.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
 }
 .form {
   margin-top: 50px;
@@ -20,37 +18,62 @@
   width: 600px;
   background: transparent;
   border: none;
-  outline: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid white;
   color: white;
   font-size: 18px;
+  font-weight: 900;
   margin-bottom: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+.contact-form .name-input{
+  margin-top: 5px;
 }
 #contact-form input {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
   height: 45px;
+  margin-top: 25px;
+  padding: 0 10px;
 }
+#contact-form textarea {
+  margin-top: 25px;
+  padding-top: 10px;
+  height: 200px;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+/* Submit button */
 #contact-form .submit {
   background-color: black;
-  border-color: white;
-  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
   height: 50px;
-  margin-top: 20px;
+  width: 250px;
+  margin-top: 80px;
 }
 #contact-form .submit:hover {
   background-color: #ddc47e;
+  border: 1px solid black;
+  color: black;
 }
-.footer {
-  border: 2px solid green;
-  /* display: flex;
+
+/* Footer */
+#contact .footer {
+  display: flex;
   flex-direction: row;
-  flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
   font-size: 20px;
+  padding-top: 50px;
 }
 .footer p {
+  text-align: right;
+  color: white;
   padding: 10px;
 }
 .footer a {
@@ -61,20 +84,92 @@
 }
 .footer i {
   transition:  transform .2s;
-
 }
 .footer i:hover {
   color: #ddc47e;
-  text-shadow: 1px 1px 5px black;
   transform: scale(1.5);
 }
 
+/* Media queries */
 
-
-
-.contact-wrapper {
-  margin-top: 200px;
+/* Screens 750px or less */
+@media (max-width: 750px) {
+  #contact {
+    width: 600px;
+    font-size: 14px;
+  }
+  #contact-form input {
+    height: 35px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  #contact-form textarea {
+    font-size: 14px;
+    height: 100px;
+    margin-top: 15px;
+  }
+  #contact-form .submit {
+    font-size: 16px;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+  }
+  .form-control {
+    width: 500px;
+  }
+  #contact .footer {
+    font-size: 14px;
+  }
 }
-.contact-wrapper h1 {
-  color: white;
+/* Screens 600px or less */
+@media (max-width: 600px) {
+  #contact {
+    width: 400px;
+    background-position: center;
+    margin-top: 80px;
+  }
+  #contact h1 {
+    margin-top: 100px;
+  }
+  #contact-form .name-input {
+    margin-top: 0;
+  }
+  .form-control {
+    width: 300px;
+  }
+  #contact .footer {
+    padding-top: 10px;
+  }
+}
+/* Screens 450px or less */
+@media (max-width: 450px) {
+  #contact {
+    margin-top: 60px;
+    width: 90vw;
+  }
+  #contact h1 {
+    margin-top: 60px;
+  }
+  .form-control {
+    margin: 0;
+  }
+  #contact .footer  {
+    display: block;
+  }
+  .footer p {
+    text-align: center;
+    padding: 0;
+  }
+}
+/* Screens 320px or less */
+@media (max-width: 321px) {
+  .form-control {
+    width: 250px;
+  }
+  #contact-form input {
+    margin-top: 0;
+  }
+  #contact-form textarea {
+    margin-top: 0;
+  }
 }

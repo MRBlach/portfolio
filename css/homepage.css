@@ -3,7 +3,6 @@
   position: fixed;
   margin: auto;
   top: 0;
-  max-width: 1200px;
   padding: 10px;
   z-index: 1;
 }
@@ -12,12 +11,15 @@
   width: 100%;
   height: 80px;
   background-color: black;
+  box-shadow: 0 1px 10px white;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
   vertical-align: middle;
   align-items: center;
   animation: navbar-dropin 500ms forwards;
+  z-index: 1;
 }
 @keyframes navbar-dropin {
   from {
@@ -29,7 +31,6 @@
 }
 .brand-name {
   padding-right: 150px;
-  z-index: 1;
 }
 .dropdown {
   padding: 0;
@@ -46,6 +47,7 @@
   font-size: 30px;
   padding-top: 50px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .dropdown-content {
@@ -126,12 +128,7 @@ a:hover .underline {
   } 
 }
 #banner {
-  margin: auto;
-  margin-top: 70px;
-  background-image: url("https://i.ibb.co/2NVcCrk/banner-min.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
+  text-align: center;
   animation: banner-fade-in 1s forwards;
 }
 @keyframes banner-fade-in {
@@ -151,13 +148,80 @@ a:hover .underline {
     filter: blur(0) opacity(1);
   }
 }
-#banner h1 {
+
+#fed {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   color: white;
   text-transform: uppercase;
   text-shadow: 1px 1px 5px black;
-  position: relative;
-  padding: 60% 0 0 52%;
-  margin: 0;
+  position: absolute;
+  bottom: 5%;
+  right: 30%;
+}
+
+/* Media queries */
+/* Screens 1200px or less */
+@media (max-width: 1200px) {
+  #fed {
+    right: 15%;
+  }
+  #banner-image {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Screens 960px or less */
+@media (max-width: 960px) {
+
+}
+/* Screens 870px or less */
+@media (max-width: 870px) {
+  #navbar {
+    height: 100px;
+    z-index: 1;
+  }
+  #brand-name {
+    margin-left: 10px;
+  }
+  .navbar {
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 20px 5px 0 0;
+  }
+  .navbar .btn {
+    padding: 0 10px;
+  }
+  #fed {
+    font-size: 20px;
+    right: 10%;
+  }
+  .brand-name {
+    padding-right: 5px;
+  }
+  .dropdown button {
+    font-size: 20px;
+  }
+}
+/* Screens 650px or less */
+@media (max-width: 650px) {
+  #banner {
+    margin-top: 90px;
+  }
+  a:hover .underline {
+    animation: none;
+    color: black;
+  }
+}
+/* Screens 320px or less */
+@media (max-width: 320px) {
+  #brand-name {
+    margin-left: 5px;
+  }
+  .navbar {
+   padding-left: 10px;
+  }
+  .navbar .btn {
+    padding: 0;
+  }
 }

@@ -2,7 +2,6 @@ body {
   background-color: black;
   font-family: 'Lora', serif;
   margin: 0 auto;
-  /* border: 2px solid yellow; */
 }
 .main-wrapper {
   background-color: black;
@@ -10,6 +9,8 @@ body {
   justify-content: center;
   vertical-align: middle;
   align-items: center;
+  max-width: 1220px;
+  margin: 0 auto;
 }
 header {
   background-color: black;
@@ -22,21 +23,7 @@ header {
   font-weight: 300;
   text-transform: uppercase;
 }
-/* 
-section {
-  border: 2px solid green;
-}
-section div {
-  border: 2px solid red; 
-}
-span {
-  border: 2px dotted blue;
-}
-hr {
-  border: 2px dashed rgb(248, 54, 206);
-} */
-
- /* vertical hr */
+/* vertical hr */
  .hide-line {
   width: 1px; 
   height: 150px;
@@ -213,6 +200,48 @@ hr {
 }
 
 
-
-
-
+/* Media queries */
+/* Screen 830px or less */
+@media (max-width: 830px) {
+  .m,
+  .elodia,
+  .r,
+  .blach,
+  .owicz {
+    font-size: 45px;
+  }
+  .hide-line {
+    width: 1px; 
+    height: 100px;
+   }
+   .line {
+     border-width: .5px;
+   }
+}
+/* Screens 600px or less */
+@media (max-width: 600px) {
+  .m,
+  .elodia,
+  .r,
+  .blach,
+  .owicz {
+    font-size: 30px;
+  }
+}
+/* Screens 350px or less */
+@media (max-width: 450px) {
+  .m,
+  .elodia,
+  .r,
+  .blach,
+  .owicz {
+    font-size: 25px;
+  }
+  .hide-line {
+    width: .3px; 
+    height: 70px;
+   }
+   .line {
+     border-width: .3px;
+   }
+}

@@ -26,9 +26,8 @@
 }
 #resume {
   background-color: white;
-  padding: 20px;
-  margin: 0 0 30px 0;
-  margin-top: 80px;
+  padding: 5px 10px 0 10px;
+  margin: 80px 0 0 0;
   max-width: 700px;
   display: flex;
   flex-direction: row; 
@@ -54,10 +53,9 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  position: relative;
 }
 .left-column h2 {
-  margin: 10px 0 0 0;
+  margin: 5px 0 0 0;
   color: #dbbb61;
   font-size: 19.5px;
 }
@@ -66,9 +64,11 @@
 }
 .left-column #profile-pic img {
   border-radius: 10%;
+  height: 175px;
 }
 #personal-info {
-  line-height: 1.4;
+  margin-top: 5px;
+  line-height: 1;
 }
 #personal-info a {
   text-decoration: none;
@@ -76,6 +76,7 @@
 }
 .left-column p {
   font-size: 13px;
+  padding-bottom: 0px;
 }
 progress[value] {
   /* Reset the default appearance */
@@ -104,10 +105,10 @@ line-height: .5;
 #interests {
   font-size: 13px;
   line-height: 1.5;
+  margin-bottom: 5px;
 }
 /* right column */
 #resume .right-column div {
-  /* border: 2px dotted red; */
   padding-left: 10px;
 }
 #resume .right-column {
@@ -118,7 +119,6 @@ line-height: .5;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  position: relative;
 }
 .right-column h2 {
   margin: 10px 0 0 0;
@@ -166,9 +166,7 @@ line-height: .5;
 #work-history {
   line-height: 1.5;
 }
-.job {
-  margin: 10px;
-}
+
 .present {
   margin: unset;
 }
@@ -180,6 +178,7 @@ line-height: .5;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 .group2 {
   display: flex;
@@ -207,4 +206,32 @@ line-height: .5;
 }
 .last {
   margin-bottom: 0;
+}
+/* Media queries */
+/* Screen 870px or less */
+@media (max-width: 870px) {
+  #resume {
+    margin-top: 180px;
+  }
+}
+/* Screen 600px or less */
+@media (max-width: 600px) {
+  /* #resume {
+    flex-direction: column;
+  }
+  #resume .left-column {
+    padding-left: 15px;
+  } */
+  #printBtn {
+  display: none;
+  }
+}
+/* Screens 450px or less */
+@media (max-width: 450px) {
+  #resume {
+    margin-top: 100px;
+  }
+  #resume .left-column {
+    margin: 0 auto;
+  }
 }
